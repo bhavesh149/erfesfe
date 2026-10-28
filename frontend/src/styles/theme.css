@@ -1,0 +1,92 @@
+/* Global palette: update UI and chart colors here. No component owns a color.
+   Dark palette values are defined once and consumed by both OS and manual modes. */
+:root {
+  color-scheme: light;
+  --color-background: #f5f7f9;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f8fafb;
+  --color-text: #647182;
+  --color-heading: #1b2b3d;
+  --color-border: #e5eaf0;
+  --color-primary: #087f75;
+  --color-primary-subtle: #eaf5f2;
+  --color-primary-border: #94c8bc;
+  --color-on-primary: #ffffff;
+  --color-forecast: #087f75;
+  --color-actual: #6b8ed6;
+  --color-danger: #be534b;
+  --color-warning: #95651c;
+  --color-warning-subtle: #fff7e9;
+  --color-success: #267b60;
+  --color-sidebar: var(--color-surface);
+  --color-sidebar-text: var(--color-text);
+  --color-sidebar-heading: var(--color-heading);
+  --color-sidebar-border: var(--color-border);
+  --color-sidebar-active: var(--color-primary-subtle);
+  --color-sidebar-highlight: var(--color-primary);
+  --color-sidebar-gradient: var(--color-surface-muted);
+  --color-skeleton: #eaf0f4;
+  --color-overlay: rgb(12 25 38 / 42%);
+  --dialog-shadow: 0 24px 80px rgb(12 25 38 / 20%);
+  --theme-shadow: 0 2px 6px rgb(19 40 62 / 2%);
+
+  --dark-background: #101a25;
+  --dark-surface: #172431;
+  --dark-surface-muted: #1b2b3a;
+  --dark-text: #a5b5c5;
+  --dark-heading: #edf4f8;
+  --dark-border: #2b3d4e;
+  --dark-primary: #74ceba;
+  --dark-primary-subtle: #203d3b;
+  --dark-primary-border: #488979;
+  --dark-on-primary: #102c28;
+  --dark-forecast: #74ceba;
+  --dark-actual: #a4bdf2;
+  --dark-danger: #f2a49c;
+  --dark-warning: #e7bc73;
+  --dark-warning-subtle: #3d3321;
+  --dark-success: #90d5b6;
+  --dark-skeleton: #253747;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --color-background: var(--dark-background);
+    --color-surface: var(--dark-surface);
+    --color-surface-muted: var(--dark-surface-muted);
+    --color-text: var(--dark-text);
+    --color-heading: var(--dark-heading);
+    --color-border: var(--dark-border);
+    --color-primary: var(--dark-primary);
+    --color-primary-subtle: var(--dark-primary-subtle);
+    --color-primary-border: var(--dark-primary-border);
+    --color-on-primary: var(--dark-on-primary);
+    --color-forecast: var(--dark-forecast);
+    --color-actual: var(--dark-actual);
+    --color-danger: var(--dark-danger);
+    --color-warning: var(--dark-warning);
+    --color-warning-subtle: var(--dark-warning-subtle);
+    --color-success: var(--dark-success);
+    --color-skeleton: var(--dark-skeleton);
+  }
+}
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --color-background: var(--dark-background);
+  --color-surface: var(--dark-surface);
+  --color-surface-muted: var(--dark-surface-muted);
+  --color-text: var(--dark-text);
+  --color-heading: var(--dark-heading);
+  --color-border: var(--dark-border);
+  --color-primary: var(--dark-primary);
+  --color-primary-subtle: var(--dark-primary-subtle);
+  --color-primary-border: var(--dark-primary-border);
+  --color-on-primary: var(--dark-on-primary);
+  --color-forecast: var(--dark-forecast);
+  --color-actual: var(--dark-actual);
+  --color-danger: var(--dark-danger);
+  --color-warning: var(--dark-warning);
+  --color-warning-subtle: var(--dark-warning-subtle);
+  --color-success: var(--dark-success);
+  --color-skeleton: var(--dark-skeleton);
+}

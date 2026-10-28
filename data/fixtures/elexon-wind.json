@@ -1,0 +1,29 @@
+[
+  {
+    "dataset": "WINDFOR",
+    "publishTime": "2026-01-14T07:30:00Z",
+    "startTime": "2026-01-15T00:00:00Z",
+    "generation": 15834
+  },
+  {
+    "dataset": "WINDFOR",
+    "publishTime": "2026-01-14T09:30:00Z",
+    "startTime": "2026-01-15T00:00:00Z",
+    "generation": 15828
+  },
+  {
+    "dataset": "WINDFOR",
+    "publishTime": "2026-01-14T11:30:00Z",
+    "startTime": "2026-01-15T00:00:00Z",
+    "generation": 15813
+  },
+  {
+    "dataset": "FUELHH",
+    "publishTime": "2026-01-15T00:30:00Z",
+    "startTime": "2026-01-15T00:00:00Z",
+    "settlementDate": "2026-01-15",
+    "settlementPeriod": 1,
+    "fuelType": "WIND",
+    "generation": 14602
+  }
+]
